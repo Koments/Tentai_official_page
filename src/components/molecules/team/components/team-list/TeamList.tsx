@@ -1,20 +1,22 @@
 import {ButtonContainer, TeamListContainer, TeamListWrapper, WisperedContainer} from "./TeamListContainer.module";
 import React, {Suspense, useState} from "react";
-import {MemberList} from "../../types";
 import {Button} from "../../../../atoms/button/Button";
+import {TeamListProps} from "../../../../../store/state/lang/type";
+import {SecondTypeButton} from "../../../../atoms/second-type-button/SecondTypeButton";
 
-export const TeamList = ({memberList, buttonTitle}: MemberList) => {
-    const [visibleImages, setVisibleImages] = useState<number>(10);
-    const LazyLoadedImage = React.lazy(() => import('../team-member-card/TeamMemberCard')); // ваш компонент, отображающий изображение
+export const TeamList = ({memberList, buttonTitle}: TeamListProps) => {
+    const [visibleImages, setVisibleImages] = useState<number>(8); // state in which we indicate how many images we will display
+
+    const LazyLoadedImage = React.lazy(() => import('../team-member-card/TeamMemberCard'));  //wrap the component in lazy for lazy loading
 
     const loadMoreImages = () => {
-        console.log('1')
-        setVisibleImages(prevVisibleImages => prevVisibleImages + 10);
+        setVisibleImages(prevVisibleImages => prevVisibleImages + 8); //add 10 pictures to the display
     };
 
     return (
         <TeamListWrapper>
             <TeamListContainer>
+                {/* A check that adds bottom shading if not all photos were displayed */}
                 {visibleImages < memberList.length ? <WisperedContainer /> : <></>}
                     <Suspense fallback={<div>Loading...</div>}>
                         {memberList.slice(0, visibleImages).map(el => (
@@ -25,8 +27,9 @@ export const TeamList = ({memberList, buttonTitle}: MemberList) => {
                     </Suspense>
             </TeamListContainer>
             <ButtonContainer onClick={loadMoreImages}>
+                {/* Displaying the additional photo loading button if there are still unloaded pictures */}
                 {visibleImages < memberList.length && (
-                    <Button title={buttonTitle}></Button>
+                    <SecondTypeButton title={buttonTitle}></SecondTypeButton>
                 )}
             </ButtonContainer>
         </TeamListWrapper>

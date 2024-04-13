@@ -4,4 +4,5 @@ export const LanguageContainer = styled.div`
     color: #d743ad;
     display: flex;
     align-items: center;
+    cursor: pointer;
 `

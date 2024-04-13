@@ -6,12 +6,14 @@ export const ButtonElement = styled.button`
     height: fit-content;
     min-height: 40px;
     padding: 11px 16px;
-    border: 0;
-    color: white;
     border-radius: 8px;
-    background: linear-gradient(147.26deg, #FF6600 25.72%, #D128A1 75.91%);
+    background: linear-gradient(147.26deg, rgb(255, 102, 0) 25%, rgb(209, 40, 161) 76%) text;
+    color: transparent;
     display: flex;
     align-items: center;
     margin-top: 26px;
     cursor: pointer;
+    border: 1px solid transparent;
+    border-image: linear-gradient(147.26deg, rgb(255, 102, 0) 25%, rgb(209, 40, 161) 76%);
+    border-image-slice: 1;
 `

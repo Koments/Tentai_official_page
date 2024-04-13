@@ -12,7 +12,8 @@ export const DownloadPlacesLeftTitle = styled.div`
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-    
+    width: 95%;
+
     span{
         font-weight: 700;
     }

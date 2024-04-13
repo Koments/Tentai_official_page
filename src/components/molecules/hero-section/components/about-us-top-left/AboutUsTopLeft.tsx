@@ -1,6 +1,6 @@
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import {AboutUsLeftTopContainerModule, ArrowBackContainer, ArrowBackText} from "./AboutUsLeftTopContainer.module";
-import {AboutTopLeftProps} from "./types";
+import {AboutTopLeftProps} from "../../../../../store/state/lang/type";
 
 export const AboutUsTopLeft = ({arrowBackText, titleFirst, titleSecond}: AboutTopLeftProps) => {
     return (

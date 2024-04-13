@@ -33,19 +33,19 @@ export const langListState: LangListType = {
                     persons: [
                         {
                             id: 1,
-                            image: '/first-person.jpg',
+                            image: './first-person.jpg',
                             alt: 'first-person'
                         }, {
                             id: 2,
-                            image: '/second-person.jpg',
+                            image: './second-person.jpg',
                             alt: 'second-person'
                         }, {
                             id: 3,
-                            image: '/first-person.jpg',
+                            image: './first-person.jpg',
                             alt: 'first-person'
                         }, {
                             id: 4,
-                            image: '/second-person.jpg',
+                            image: './second-person.jpg',
                             alt: 'second-person'
                         }, {
                             id: 5,
@@ -53,7 +53,7 @@ export const langListState: LangListType = {
                         },
                     ],
                 }, aboutBottomRight: {
-                    text: "Вместе строим будущее <br /> онлайн-торговли в Тайланде",
+                    text: ["Вместе строим будущее", "онлайн-торговли в Тайланде"],
                     buttonTitle: "Связаться с нами"
                 },
             }, missionValues: {
@@ -86,7 +86,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -98,7 +98,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -110,7 +110,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -122,7 +122,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -134,7 +134,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -146,7 +146,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -158,7 +158,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -170,7 +170,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -182,7 +182,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -194,7 +194,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -206,7 +206,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -218,7 +218,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -230,7 +230,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -242,7 +242,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -254,7 +254,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -266,7 +266,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -278,7 +278,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -290,7 +290,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -302,7 +302,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -314,7 +314,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -326,7 +326,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -338,7 +338,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -350,7 +350,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -362,7 +362,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -374,7 +374,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -386,7 +386,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -398,7 +398,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Full Stack разработчик',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -410,7 +410,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Архитектор программного обеспечения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -422,7 +422,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Основатель и СЕО Tentai',
-                        source: '/first-person.jpg',
+                        source: './first-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -434,7 +434,7 @@ export const langListState: LangListType = {
                         firstName: 'Имя',
                         secondName: 'Фамилия',
                         position: 'Разработчик мобильного приложения',
-                        source: '/second-person.jpg',
+                        source: './second-person.jpg',
                         openInfo: false,
                         info: {
                             headerInfo: `Мы начали с мечты: создать онлайн платформу, где каждый может легко покупать и продавать`,
@@ -445,7 +445,7 @@ export const langListState: LangListType = {
             },
             downloadPlacesLeft: {
                 upText: "Присоединяйтесь уже сейчас",
-                bottomText: "и открывайте <br/> для себя мир возможностей вместе с Tentai!"
+                bottomText: "и открывайте для себя мир возможностей вместе с Tentai!"
             },
             feedback: {
                 leftSide: {
@@ -465,6 +465,14 @@ export const langListState: LangListType = {
                         button: {
                             title: 'Отправить сообщение'
                         }
+                    },
+                    formAfterSend: {
+                        title: 'Заявка отправлена',
+                        sendTitle: 'Ваша заявка успешно отправлена. Мы свяжемся с вами в ближайшее время, чтобы отправить вам все необходимые детали на электронную почту.',
+                        subscribeTitle: 'Чтобы ничего не пропустить, загляните на Tentai и подпишитесь на наши соцсети:',
+                        cooperationTitle: 'Спасибо за ваш интерес к нашему проекту. С нетерпением ждем нашего сотрудничества!',
+                        tentaiTeam: 'Команда Tentai',
+                        buttonTitle: 'Вернуться на главную'
                     }
                 }
             },
@@ -528,19 +536,19 @@ export const langListState: LangListType = {
                     persons: [
                         {
                             id: 1,
-                            image: '/first-person.jpg',
+                            image: './first-person.jpg',
                             alt: 'first-person'
                         }, {
                             id: 2,
-                            image: '/second-person.jpg',
+                            image: './second-person.jpg',
                             alt: 'second-person'
                         }, {
                             id: 3,
-                            image: '/first-person.jpg',
+                            image: './first-person.jpg',
                             alt: 'first-person'
                         }, {
                             id: 4,
-                            image: '/second-person.jpg',
+                            image: './second-person.jpg',
                             alt: 'second-person'
                         }, {
                             id: 5,
@@ -548,7 +556,7 @@ export const langListState: LangListType = {
                         },
                     ],
                 }, aboutBottomRight: {
-                    text: "Building the future <br /> of online trading in Thailand together",
+                    text: ["Building the future", "of online trading in Thailand together"],
                     buttonTitle: "Contact Us"
                 },
             }, missionValues: {
@@ -581,7 +589,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -592,7 +600,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -603,7 +611,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -614,7 +622,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -625,7 +633,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -636,7 +644,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -647,7 +655,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -658,7 +666,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -669,7 +677,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -680,7 +688,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -691,7 +699,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -702,7 +710,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -713,7 +721,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -724,7 +732,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -735,7 +743,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -746,7 +754,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -757,7 +765,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -768,7 +776,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -779,7 +787,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -790,7 +798,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -801,7 +809,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -812,7 +820,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -823,7 +831,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -834,7 +842,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -845,7 +853,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -856,7 +864,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -867,7 +875,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Full Stack Developer',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -878,7 +886,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Software Architect',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -889,7 +897,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Founder and CEO of Tentai',
-                        source: '/first-person.jpg', openInfo: false,
+                        source: './first-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -900,7 +908,7 @@ export const langListState: LangListType = {
                         firstName: 'Name',
                         secondName: 'Surname',
                         position: 'Mobile Application Developer',
-                        source: '/second-person.jpg', openInfo: false,
+                        source: './second-person.jpg', openInfo: false,
                         info: {
                             headerInfo: `We started with a dream: to create an online platform where everyone can easily buy and sell.`,
                             bottomInfo: `We aim to transform Thailand's market interaction by providing an intuitive interface for renting accommodations, renting cars, and accessing freelance services. Our goal is to make Tentai synonymous with reliability, efficiency, and`
@@ -910,7 +918,7 @@ export const langListState: LangListType = {
             },
             downloadPlacesLeft: {
                 upText: "Join now",
-                bottomText: "and discover <br/> a world of opportunities with Tentai!"
+                bottomText: "and discover a world of opportunities with Tentai!"
             },
             feedback: {
                 leftSide: {
@@ -930,6 +938,13 @@ export const langListState: LangListType = {
                         button: {
                             title: 'Send Message'
                         }
+                    },formAfterSend: {
+                        title: 'Application submitted',
+                        sendTitle: 'Your application has been successfully submitted. We will contact you shortly to send you all the necessary details to your email.',
+                        subscribeTitle: 'To stay updated, visit Tentai and subscribe to our social media:',
+                        cooperationTitle: 'Thank you for your interest in our project. We look forward to collaborating with you!',
+                        tentaiTeam: 'Tentai Team',
+                        buttonTitle: 'Return to homepage'
                     }
                 }
             },

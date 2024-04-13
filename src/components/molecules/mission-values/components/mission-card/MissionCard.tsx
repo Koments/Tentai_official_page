@@ -1,4 +1,4 @@
-import {HiddenTitle, MissionCardContainer, Title} from "./MissionCardContainer.module";
+import {HiddenTitle,  MissionCardContainer, Title} from "./MissionCardContainer.module";
 import {AvailAbilityIcon} from "../../pictures/AvailAbilityIcon";
 import {VisionIcon} from "../../pictures/VisionIcon";
 import {MissionIcon} from "../../pictures/MissionIcon";
@@ -9,9 +9,11 @@ export const MissionCard = ({title, hiddenTitle, ImgComponent}: MissionType) => 
 
     return (
         <MissionCardContainer>
-            <Icon/>
-            <HiddenTitle>{hiddenTitle}</HiddenTitle>
-            <Title>{title}</Title>
+                <Icon/>
+            <div>
+                <HiddenTitle>{hiddenTitle}</HiddenTitle>
+                <Title>{title}</Title>
+            </div>
         </MissionCardContainer>
     );
 };

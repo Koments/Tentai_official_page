@@ -5,6 +5,12 @@ export const AboutUsLeftTopContainerModule = styled.div`
     justify-content: flex-end;
     align-items: flex-end;
     position: relative;
+    
+    div h1{
+        margin: 0 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
 `
 
 export const ArrowBackContainer = styled.div`

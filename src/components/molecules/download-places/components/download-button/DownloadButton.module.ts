@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const DownloadButtonContainer = styled.div`
-    width: 143px;
+    width: 150px;
     height: 50px;
     border-radius: 5px;
     background-color: white;

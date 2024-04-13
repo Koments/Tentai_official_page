@@ -26,7 +26,7 @@ export const Category = styled.div`
 `
 
 export const IconInfo = styled.div`
-    margin-left: 15px;
+    margin-left: ;
     color: black;
     
 `

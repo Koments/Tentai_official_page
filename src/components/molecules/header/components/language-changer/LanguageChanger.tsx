@@ -1,17 +1,17 @@
 import LanguageIcon from '@mui/icons-material/Language';
-import {LanguageChangerProps} from "./Types";
 import {LanguageContainer} from "./LanguageChanger.module";
 import {useDispatch} from "react-redux";
 import {changeLang} from "../../../../../store/langListSlice";
+import {LanguageChangerProps} from "../../../../../store/state/lang/type";
 
 export const LanguageChanger = ({value}: LanguageChangerProps) => {
     const dispatch = useDispatch()
     const onclickHandler = () => {dispatch(changeLang(value))}
 
     return (
-        <LanguageContainer>
+        <LanguageContainer onClick={() => onclickHandler()}>
             <LanguageIcon/>
-            <div onClick={() => onclickHandler()}>{value}</div>
+            <div>{value}</div>
         </LanguageContainer>
     );
 };

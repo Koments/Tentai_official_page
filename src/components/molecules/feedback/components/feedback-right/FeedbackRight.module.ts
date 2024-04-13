@@ -2,19 +2,20 @@ import styled from '@emotion/styled'
 
 export const FeedbackRightContainer = styled.div`
     width: 538px;
-    height: 492px;
+    height: 502px;
     left: 730px;
     background-color: white;
     border-radius: 26px;
     filter: drop-shadow(0px 4px 41px rgba(0, 0, 0, 0.1));
     padding: 24px;
-    
-    div{
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
- 
+`
+
+export const InfoCardContainer = styled.div`
+    height: 460px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
     label{
         font-size: 16px;
         font-weight: 500;
@@ -24,6 +25,7 @@ export const FeedbackRightContainer = styled.div`
 
     }
 `
+
 export const AfterSendContainer = styled.div`
     font-weight: 500;
     font-size: 14px;
@@ -31,6 +33,7 @@ export const AfterSendContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 `
 export const Title = styled.h3`
     background: linear-gradient(147.26deg, rgb(255, 102, 0) 25%, rgb(209, 40, 161) 76%) text;
@@ -40,8 +43,16 @@ export const AfterSendImg = styled.img`
     width: 180px;
     height: 180px;
 `
+
 export const Info = styled.div``
+
+export const SocialLinksContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
 export const TeamColor = styled.div`
+
     background: linear-gradient(147.26deg, #FF6600 25.72%, #D128A1 75.91%) text;
     color: transparent;
 `

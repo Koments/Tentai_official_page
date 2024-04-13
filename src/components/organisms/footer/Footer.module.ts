@@ -2,7 +2,6 @@ import styled from '@emotion/styled'
 
 export const FooterWrapper = styled.div`
     background: #fef5f7;
-    height: 317px;
     padding: 40px 60px;
     width: 1320px;
 `

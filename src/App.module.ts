@@ -1,12 +1,10 @@
-import "@fontsource/montserrat";
-import "@fontsource/montserrat-alternates";
 import styled from '@emotion/styled'
 
 export const AppContainer = styled.div`
+    font-family: "Montserrat Alternates", sans-serif;
     width: 1440px;
-    background-color: black;
-
-    font-family: 'Montserrat';
+    margin: 0 auto;
+    position: relative;
 
     h1 {
         font-size: 72px;
@@ -14,6 +12,7 @@ export const AppContainer = styled.div`
 
     h2 {
         font-size: 36px;
+        margin:  50px;
     }
 
     h3 {
@@ -21,11 +20,11 @@ export const AppContainer = styled.div`
     }
 
     h1 h2 h3 {
-        font-family: 'Montserrat Alternates';
         color: #4F4F4F
     }
 `
 export const CenterContainer = styled.div`
     display: flex;
+    justify-content: space-between;
     align-items: center;
 `

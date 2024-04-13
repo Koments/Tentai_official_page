@@ -15,6 +15,6 @@ export const DownloadPlacesContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    background: linear-gradient(147.26deg, #FF6600 25.72%, #D128A1 75.91%);
+    background: linear-gradient(172deg, #FF6600 25.72%, #D128A1 75.91%);
     border-radius: 26px;
 `

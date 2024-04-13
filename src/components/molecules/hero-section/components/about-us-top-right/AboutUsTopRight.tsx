@@ -5,9 +5,9 @@ import {
     EmployeesCountTitle,
     ImagesContainer
 } from "./AboutUsRightTopContainer.module";
-import {aboutTopRightProps} from "./types";
+import {AboutUsBottomRightProps} from "../../../../../store/state/lang/type";
 
-export const AboutUsTopRight = ({titleFirst, persons}: aboutTopRightProps) => {
+export const AboutUsTopRight = ({titleFirst, persons}: AboutUsBottomRightProps) => {
     let offset = -10;
     return (
         <AboutUsTopRightContainer>

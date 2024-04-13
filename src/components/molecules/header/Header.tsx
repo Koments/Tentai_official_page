@@ -12,9 +12,7 @@ export const Header = (props: HeaderProps) => {
             <Logo/>
 
             <NavigationContainer>
-                <CenterContainer>
                      {props.navBarItems.map(el => <NavbarItem key={el.id} title={el.title} iconProp={el.iconProp} color={el.color}/>)}
-                </CenterContainer>
                 <CenterContainer>
                     <LanguageChanger value={props.lang}/>
                 </CenterContainer>

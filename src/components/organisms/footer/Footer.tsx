@@ -3,8 +3,8 @@ import {FooterCopywriting} from "../../molecules/footer-navigation/components/fo
 import {FooterNavContainer, FooterWrapper} from "./Footer.module";
 import {FooterAppLinks} from "../../molecules/footer-navigation/components/footer-app-links/FooterAppLinks";
 import {FooterContacts} from "../../molecules/footer-navigation/components/footer-contacts/FooterContacts";
-import {FooterProps} from "./types";
 import {FooterNavigation} from "../../molecules/footer-navigation/FooterNavigation";
+import {FooterProps} from "../../../store/state/lang/type";
 
 export const Footer = ({navListContainer}: FooterProps) => {
     return (

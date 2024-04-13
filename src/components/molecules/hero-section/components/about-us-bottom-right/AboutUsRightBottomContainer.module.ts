@@ -1,6 +1,7 @@
 import styled from '@emotion/styled'
 
 export const AboutUsBottomRightContainer = styled.div`
+    margin-left: 10px;
     div {
         margin-top: 8px; 
         font-weight: 500;

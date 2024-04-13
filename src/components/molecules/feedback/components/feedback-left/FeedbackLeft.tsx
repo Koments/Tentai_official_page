@@ -8,13 +8,12 @@ import {
     Phone,
     PhoneContainer,
 } from "./FeedbackLeft.module";
-import {H2} from "../../../../atoms/h2/H2";
-import { LeftSideProps} from "./types";
+import {LeftSideProps} from "../../../../../store/state/lang/type";
 
 export const FeedbackLeft = ({title, subTitle}:LeftSideProps) => {
     return (
         <FeedbackContainerLeftContainer>
-            <H2 title={title}/>
+            <h2 >{title}</h2>
             <Paragraph>{subTitle}</Paragraph>
             <div>
                 <MailContainer>

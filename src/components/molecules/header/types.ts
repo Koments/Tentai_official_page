@@ -1,12 +1,6 @@
-import {ReactJSXElementType} from "@emotion/react/types/jsx-namespace";
+import {NavBarItemProp} from "../../../store/state/lang/type";
 
 export type HeaderProps = {
-    navBarItems: NavBarItem[]
+    navBarItems: NavBarItemProp[]
     lang: "RUS" | "ENG"
-}
-type NavBarItem = {
-    id: number;
-    title: string;
-    iconProp?: string;
-    color?: string;
 }

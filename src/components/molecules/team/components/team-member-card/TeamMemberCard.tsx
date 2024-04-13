@@ -15,6 +15,8 @@ const TeamMemberCard = ({firstName, secondName, position, source, openInfo, info
         dispatch(setCardOpen({id, openInfo}));
     };
 
+    console.log(source)
+
     return (
         <TeamMemberCardContainer onClick={() => onClickHandler()}>
             {!openInfo ? (

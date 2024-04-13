@@ -1,6 +1,8 @@
 import styled from '@emotion/styled'
 
 export const HeaderContainer = styled.div`
+    position: relative;
+    z-index: 1;
     height: 68px;
     background-color: white;
     display: flex;

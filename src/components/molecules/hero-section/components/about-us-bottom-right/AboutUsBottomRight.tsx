@@ -1,12 +1,11 @@
-import {Button} from "../../../../atoms/button/Button";
 import {AboutUsBottomRightContainer} from "./AboutUsRightBottomContainer.module";
-import {AboutBottomRight} from "./types";
+import {Button} from "../../../../atoms/button/Button";
+import {aboutBottomRightProps} from "../../../../../store/state/lang/type";
 
-export const AboutUsBottomRight = ({text, buttonTitle}: AboutBottomRight) => {
+export const AboutUsBottomRight = ({text, buttonTitle}: aboutBottomRightProps) => {
     return (
         <AboutUsBottomRightContainer>
             <div>{text}</div>
-
             <Button title={buttonTitle}/>
         </AboutUsBottomRightContainer>
     );

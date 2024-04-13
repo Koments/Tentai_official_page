@@ -1,27 +1,35 @@
 import styled from '@emotion/styled'
 
 export const MissionCardContainer = styled.div`
-    width: 100%; 
+    width: 100%;
     max-width: 426px;
     height: 320px;
     gap: 16px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-start;
     margin-top: -20px;
-    padding-top: 20px;
+    padding: 20px 0;
     background-clip: padding-box;
     background-color: white;
-    
-`
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    position: relative;
 
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+`
 export const HiddenTitle = styled.div`
-    font-wight: 700;
+    font-weight: 700;
     font-size: 31px;
     line-height: 35px;
     Opacity: 0.05;
-    color: rgba(79, 79, 79, 1);
+    color: rgb(3 3 3);
 `
 
 export const Title = styled.div`

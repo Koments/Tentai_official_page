@@ -4,12 +4,16 @@ export const FeedbackContainerLeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
     color: white;
     margin-left: 32px;
     width: 480px;
+    height: 321px;
+    justify-content: space-between;
+    margin-top: 95px;
     
-
+    h2 {
+        margin: 0 !important;
+    }
 `
 export const Paragraph = styled.div`
     font-weight: 500;

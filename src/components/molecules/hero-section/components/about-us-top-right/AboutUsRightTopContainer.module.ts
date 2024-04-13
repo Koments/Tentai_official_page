@@ -5,10 +5,18 @@ export const AboutUsTopRightContainer = styled.div`
     justify-content: flex-start;
     align-items: flex-end;
     position: relative;
+    margin: 0 10px;
+    h1{
+        margin: 0;
+    }
 `
 
 export const ImagesContainer = styled.div`
     display: flex;
+    margin-bottom: 10px;
+    h2{
+        margin: 0;
+    }
 `
 
 export const EmployeesCountContainer = styled.div`

@@ -1,8 +1,6 @@
-export type categoryProp = {
-    id: number, title: string, link: string
-}
+import {CategoryProp} from "../../../../../store/state/lang/type";
 
 export type FooterCategoryProps = {
     categoryName: string,
-    categories: categoryProp[]
+    categories: CategoryProp[]
 }

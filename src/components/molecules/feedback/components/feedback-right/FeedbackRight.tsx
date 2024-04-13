@@ -5,14 +5,15 @@ import {
     AfterSendImg,
     FeedbackRightContainer,
     Info,
-    InfoCard,
+    InfoCard, InfoCardContainer, SocialLinksContainer,
     TeamColor,
     Title
 } from "./FeedbackRight.module";
 import {Button} from "../../../../atoms/button/Button";
-import {RightSideProps} from "./types";
+import {SocialLinks} from "../../../../atoms/social-links/SocialLinks";
+import {RightSideProps} from "../../../../../store/state/lang/type";
 
-export const FeedbackRight = ({form}: RightSideProps) => {
+export const FeedbackRight = ({form, formAfterSend}: RightSideProps) => {
     const [sended, setSended] = useState(false)
     const {register, handleSubmit, formState: {errors}} = useForm();
     const onSubmit = () => setSended(true);
@@ -22,7 +23,7 @@ export const FeedbackRight = ({form}: RightSideProps) => {
         <FeedbackRightContainer>
             <form onSubmit={handleSubmit(onSubmit)}>
                 {!sended ?
-                    <div>
+                    <InfoCardContainer>
                         <InfoCard>
                             <label htmlFor='name'>{form.name.label}</label>
                             <input id={"name"} type="text"
@@ -55,21 +56,23 @@ export const FeedbackRight = ({form}: RightSideProps) => {
                         <div>
                             <Button title={form.button.title}/>
                         </div>
-                    </div> : <AfterSendContainer>
-                        <Title>Заявка отправлена</Title>
+                    </InfoCardContainer> : <AfterSendContainer>
+                        <Title>{formAfterSend.title}</Title>
                         <div>
-                            <AfterSendImg src="/imageAfterSend.png" alt=""/>
+                            <AfterSendImg src="./imageAfterSend.png" alt="imageAfterSend"/>
                         </div>
                         <Info>
-                            <div>Ваша заявка успешно отправлена. Мы свяжемся с вами в ближайшее время, чтобы отправить
-                                вам все необходимые детали на электронную почту.
+                            <div>{formAfterSend.sendTitle}
                             </div>
-                            <div>Чтобы ничего не пропустить, загляните на Tentai и подпишитесь на наши соцсети:</div>
-                            <div>Спасибо за ваш интерес к нашему проекту. С нетерпением ждем нашего сотрудничества!
+                            <div>{formAfterSend.subscribeTitle}</div>
+                            <SocialLinksContainer>
+                                <SocialLinks />
+                            </SocialLinksContainer>
+                            <div>{formAfterSend.cooperationTitle}
                             </div>
-                            <TeamColor>Команда Tentai</TeamColor>
+                            <TeamColor>{formAfterSend.tentaiTeam}</TeamColor>
                         </Info>
-                        <Button title={"Вернуться на главную"}></Button>
+                        <Button title={formAfterSend.buttonTitle} />
                     </AfterSendContainer>}
             </form>
         </FeedbackRightContainer>

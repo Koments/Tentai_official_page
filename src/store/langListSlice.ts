@@ -4,7 +4,7 @@ import {langListState} from "./state/lang/langList.state";
 const langListSlice = createSlice({
     name: 'selectedLang',
     initialState: {
-        langIso: 'ENG',
+        langIso: 'RUS',
         lang: langListState
     },
     reducers: {
