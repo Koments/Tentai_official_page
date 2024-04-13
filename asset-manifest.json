@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tentai_official_page/static/css/main.ea75b157.css",
-    "main.js": "/Tentai_official_page/static/js/main.e1c8bfec.js",
-    "static/js/382.ebba45fe.chunk.js": "/Tentai_official_page/static/js/382.ebba45fe.chunk.js",
+    "main.js": "/Tentai_official_page/static/js/main.52083444.js",
+    "static/js/382.cd80779d.chunk.js": "/Tentai_official_page/static/js/382.cd80779d.chunk.js",
     "static/js/453.02656293.chunk.js": "/Tentai_official_page/static/js/453.02656293.chunk.js",
     "static/media/montserrat-alternates-latin-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-latin-400-normal.f213d57eadd8207d03f9.woff2",
     "static/media/montserrat-latin-400-normal.woff": "/Tentai_official_page/static/media/montserrat-latin-400-normal.b48c3d9a8c0a49c1c7b4.woff",
@@ -26,12 +26,12 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-vietnamese-400-normal.176348415471f3e062e6.woff2",
     "index.html": "/Tentai_official_page/index.html",
     "main.ea75b157.css.map": "/Tentai_official_page/static/css/main.ea75b157.css.map",
-    "main.e1c8bfec.js.map": "/Tentai_official_page/static/js/main.e1c8bfec.js.map",
-    "382.ebba45fe.chunk.js.map": "/Tentai_official_page/static/js/382.ebba45fe.chunk.js.map",
+    "main.52083444.js.map": "/Tentai_official_page/static/js/main.52083444.js.map",
+    "382.cd80779d.chunk.js.map": "/Tentai_official_page/static/js/382.cd80779d.chunk.js.map",
     "453.02656293.chunk.js.map": "/Tentai_official_page/static/js/453.02656293.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea75b157.css",
-    "static/js/main.e1c8bfec.js"
+    "static/js/main.52083444.js"
   ]
 }
