@@ -1,37 +1,14 @@
 {
   "files": {
-    "main.css": "/Tentai_official_page/static/css/main.ea75b157.css",
-    "main.js": "/Tentai_official_page/static/js/main.206fe9e2.js",
+    "main.js": "/Tentai_official_page/static/js/main.bec17ed2.js",
     "static/js/382.cd80779d.chunk.js": "/Tentai_official_page/static/js/382.cd80779d.chunk.js",
     "static/js/453.02656293.chunk.js": "/Tentai_official_page/static/js/453.02656293.chunk.js",
-    "static/media/montserrat-alternates-latin-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-latin-400-normal.f213d57eadd8207d03f9.woff2",
-    "static/media/montserrat-latin-400-normal.woff": "/Tentai_official_page/static/media/montserrat-latin-400-normal.b48c3d9a8c0a49c1c7b4.woff",
-    "static/media/montserrat-latin-ext-400-normal.woff": "/Tentai_official_page/static/media/montserrat-latin-ext-400-normal.cf42d14e809c6fdc0929.woff",
-    "static/media/montserrat-alternates-latin-400-normal.woff": "/Tentai_official_page/static/media/montserrat-alternates-latin-400-normal.ae9ebe407049683f4bab.woff",
-    "static/media/montserrat-alternates-latin-ext-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-latin-ext-400-normal.42c6bd5e01c91cee8dc9.woff2",
-    "static/media/montserrat-alternates-latin-ext-400-normal.woff": "/Tentai_official_page/static/media/montserrat-alternates-latin-ext-400-normal.835882fb882566907ab3.woff",
-    "static/media/montserrat-latin-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-latin-400-normal.9ef09180105730e3cb92.woff2",
-    "static/media/montserrat-alternates-cyrillic-ext-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-cyrillic-ext-400-normal.78fc33ec35af533623dc.woff2",
-    "static/media/montserrat-latin-ext-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-latin-ext-400-normal.83d2d15dd908a3cf998f.woff2",
-    "static/media/montserrat-cyrillic-ext-400-normal.woff": "/Tentai_official_page/static/media/montserrat-cyrillic-ext-400-normal.183f43730b586802d1a0.woff",
-    "static/media/montserrat-alternates-cyrillic-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-cyrillic-400-normal.8a714217a031c797b215.woff2",
-    "static/media/montserrat-alternates-cyrillic-ext-400-normal.woff": "/Tentai_official_page/static/media/montserrat-alternates-cyrillic-ext-400-normal.c26d4a43e405d2cac347.woff",
-    "static/media/montserrat-cyrillic-400-normal.woff": "/Tentai_official_page/static/media/montserrat-cyrillic-400-normal.439a7e91c905d22b3543.woff",
-    "static/media/montserrat-alternates-cyrillic-400-normal.woff": "/Tentai_official_page/static/media/montserrat-alternates-cyrillic-400-normal.9b4e236e3c21792e9463.woff",
-    "static/media/montserrat-cyrillic-ext-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-cyrillic-ext-400-normal.32618c7b62b4ab3c0aff.woff2",
-    "static/media/montserrat-cyrillic-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-cyrillic-400-normal.4f7a9c3142f9879900c9.woff2",
-    "static/media/montserrat-alternates-vietnamese-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-alternates-vietnamese-400-normal.b3c22905ac958c3b1429.woff2",
-    "static/media/montserrat-vietnamese-400-normal.woff": "/Tentai_official_page/static/media/montserrat-vietnamese-400-normal.287fa03e42adda902780.woff",
-    "static/media/montserrat-alternates-vietnamese-400-normal.woff": "/Tentai_official_page/static/media/montserrat-alternates-vietnamese-400-normal.63307ff5741838cf056b.woff",
-    "static/media/montserrat-vietnamese-400-normal.woff2": "/Tentai_official_page/static/media/montserrat-vietnamese-400-normal.176348415471f3e062e6.woff2",
     "index.html": "/Tentai_official_page/index.html",
-    "main.ea75b157.css.map": "/Tentai_official_page/static/css/main.ea75b157.css.map",
-    "main.206fe9e2.js.map": "/Tentai_official_page/static/js/main.206fe9e2.js.map",
+    "main.bec17ed2.js.map": "/Tentai_official_page/static/js/main.bec17ed2.js.map",
     "382.cd80779d.chunk.js.map": "/Tentai_official_page/static/js/382.cd80779d.chunk.js.map",
     "453.02656293.chunk.js.map": "/Tentai_official_page/static/js/453.02656293.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea75b157.css",
-    "static/js/main.206fe9e2.js"
+    "static/js/main.bec17ed2.js"
   ]
 }
